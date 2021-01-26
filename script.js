@@ -56,3 +56,19 @@ while (true) {
 // loop while true  break
 // Math.floor;
 // math.random * 10 + 1
+
+// extra credit stuff
+
+("use strict");
+let wage = 10;
+let hours = 45;
+
+let final = wage * hours;
+
+console.log(`${final}`);
+
+if (hours <= 40) {
+  console.log((final = hours * wage));
+} else {
+  console.log((final = 40 * wage + (hours - 40) * (wage * 1.5)));
+}
